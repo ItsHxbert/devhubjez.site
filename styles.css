@@ -14,6 +14,7 @@
   --color-icon-hover: #32692e;
   --color-footer-background: #1c1c1c;
   --color-footer-text: #7b7b7b;
+  --color-quiz: dodgerblue;
 }
 
 * {
@@ -63,6 +64,10 @@ body {
 
 .navbar ul li:last-child a {
   margin: 0;
+}
+
+#quiz {
+  font-weight: 800;
 }
 
 .hire-btn {

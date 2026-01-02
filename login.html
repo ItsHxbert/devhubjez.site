@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logowanie</title>
+    <link rel="stylesheet" href="login.css" />
+    <link rel="icon" type="image/x-icon" href="ikona.ico" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-box">
+        <div class="logo">
+          <div class="logo-icon">🎮</div>
+        </div>
+        <h1>Witaj ponownie!</h1>
+        <p class="subtitle">Zaloguj się, aby kontynuować</p>
+
+        <form id="loginForm">
+          <div class="input-group">
+            <label for="username">
+              <span class="icon">👤</span>
+              Login
+            </label>
+            <input
+              type="text"
+              id="username"
+              placeholder="Wpisz login"
+              required
+            />
+          </div>
+
+          <div class="input-group">
+            <label for="password">
+              <span class="icon">🔒</span>
+              Hasło
+            </label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Wpisz hasło"
+              required
+            />
+          </div>
+
+          <p id="error-message" class="error-message"></p>
+
+          <button type="submit" class="login-btn">
+            <span>Zaloguj się</span>
+            <span class="arrow">→</span>
+          </button>
+        </form>
+
+        <div class="footer">
+          <p>Nie pamiętasz hasła? <a href="#">Zresetuj</a></p>
+
+          <a href="index.html" class="back-home-link">
+            <span>🏠</span> Powrót do strony głównej
+          </a>
+        </div>
+      </div>
+
+      <div class="background-shapes">
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+        <div class="shape shape3"></div>
+      </div>
+    </div>
+
+    <script src="login.js"></script>
+  </body>
+</html>
